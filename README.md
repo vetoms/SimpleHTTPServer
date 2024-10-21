@@ -93,11 +93,11 @@ Verifies that the server returns a 404 Not Found response for unknown routes.
 Running the tests will produce output like the following:
 
 TCP Server Tests:  
-1. **✓** should return 200 OK for root route  
-2. **✓** should echo back the content after /echo/  
-3. **✓** should return gzip compressed content if requested  
-4. **✓** should return 404 for an unknown route  
-5. **✓** should return the correct User-Agent header
+ **✓** should return 200 OK for root route  
+ **✓** should echo back the content after /echo/  
+ **✓** should return gzip compressed content if requested  
+ **✓** should return 404 for an unknown route  
+ **✓** should return the correct User-Agent header
 
 
 ## License
