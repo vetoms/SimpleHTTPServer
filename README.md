@@ -92,11 +92,11 @@ Example Output
 Running the tests will produce output like the following:
 
   TCP Server Tests
-    **✓ should return 200 OK for root route
-    **✓ should echo back the content after /echo/
-    **✓ should return gzip compressed content if requested
-    **✓ should return 404 for an unknown route
-    **✓ should return the correct User-Agent header
+    1. ** ✓ should return 200 OK for root route
+    2. **✓ should echo back the content after /echo/
+    3. **✓ should return gzip compressed content if requested
+    4. **✓ should return 404 for an unknown route
+    5. **✓ should return the correct User-Agent header
 
 ## License
 This project is licensed under the MIT License
