@@ -89,7 +89,7 @@ Verifies that the server returns the correct User-Agent string from the request.
 
 Verifies that the server returns a 404 Not Found response for unknown routes.
 
-#Example Output
+## Example Output
 Running the tests will produce output like the following:
 
   TCP Server Tests:
