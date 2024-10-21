@@ -33,9 +33,6 @@ This project is a simple TCP server implemented in Node.js that handles HTTP-lik
    git clone https://github.com/vetoms/SimpleHTTPServer.git
    cd simple-tcp-server
 
-## Install Node.js dependencies:
-
-
 ##  Run the server:
 
 node server.js <directory-path>
@@ -95,10 +92,11 @@ Example Output
 Running the tests will produce output like the following:
 
   TCP Server Tests
-    ✓ should return 200 OK for root route
-    ✓ should echo back the content after /echo/
-    ✓ should return gzip compressed content if requested
-    ✓ should return 404 for an unknown route
-    ✓ should return the correct User-Agent header
-License
-This project is licensed under the MIT License - see the LICENSE file for details.
+    **✓ should return 200 OK for root route
+    **✓ should echo back the content after /echo/
+    **✓ should return gzip compressed content if requested
+    **✓ should return 404 for an unknown route
+    **✓ should return the correct User-Agent header
+
+## License
+This project is licensed under the MIT License
